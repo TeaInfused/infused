@@ -10,16 +10,16 @@ app = Flask(__name__)
 @app.route("/teas")
 def teas():
     """End point for list of teas."""
-    tealist = {
-        'Lord': {
+    tealist = [
+        {
             'name': 'Thé des Lords',
             'type': 'Earl Grey'
         },
-        'Hammam': {
+        {
             'name': 'Thé du Hammam',
             'type': 'Thé vert'
         }
-    }
+    ]
     return jsonify(tealist)
 
 
