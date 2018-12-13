@@ -12,8 +12,16 @@ def teas():
     """End point for list of teas."""
     tealist = [
         {
+            'name': 'Blue of London',
+            'type': 'Earl Grey'
+        },
+        {
             'name': 'Thé des Lords',
             'type': 'Earl Grey'
+        },
+        {
+            'name': 'Green of London',
+            'type': 'Earl Grey Mao Feng'
         },
         {
             'name': 'Thé du Hammam',
