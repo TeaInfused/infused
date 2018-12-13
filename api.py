@@ -9,6 +9,7 @@ app = Flask(__name__)
 
 @app.route("/teas")
 def teas():
+    """End point for list of teas."""
     tealist = {
         'Lord': {
             'name': 'Thé des Lords',
